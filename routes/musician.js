@@ -6,7 +6,7 @@ const schema = require('../store/schema');
 
 // healthcheck
 router.get('/health', (req, res) => {
-  res.status('200').send("Test new: ok!");
+  res.status('200').send("Test new: 123ok!");
 });
 
 // retrieve all musicians from data store
